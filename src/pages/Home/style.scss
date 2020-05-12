@@ -1,0 +1,88 @@
+.Header{
+  padding-top: 30px;
+    height: 200px;
+    background: #ffffff;
+    text-align: center;
+  }
+  .ItemList_Header{
+    padding-top: 30px;
+    height: 100px;
+    background: #ffffff;
+    text-align: center;
+  }
+
+.Content{
+  height: 300px;
+  background: #ffffff;
+  display: flex;
+  flex-direction:column
+}
+.Content .Button{
+  margin-top: 20px;
+  width: 98%;
+  margin: auto;
+  border: none;
+}
+
+.Footer{
+  text-align: center;
+  background: #ffffff;
+}
+
+.page-title{
+ 
+  color: #515a6e;
+  font-size: 34px;
+  font-weight: 600
+}
+.page-title span {
+  position: relative;
+}
+.page-title span::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: -10%;
+  height: 2px;
+  background-color: #008aff;
+  -webkit-animation: blueline 0.3s ease 0.3s;
+  animation: blueline 0.3s ease 0.3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.page-describe{
+  color: #787878;
+  font-size: 12px;
+}
+@keyframes blueline {
+  from {
+    width: 0;
+  }
+  to {
+    width: 120%;
+  }
+}
+
+
+// this is component in ItemList_student.jsx
+.ItemTable{
+  // width: 80%;
+  // margin: 0 auto;
+  margin-top: 30px;
+}
+
+// 手动给result页面写CSS
+.Result_container{
+  border: 20px solid pink;
+  padding:20px
+}
+
+
+.Item_page_Button{
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.BackButton{
+  margin-top: 30px;
+  margin-left: 30px;
+}
